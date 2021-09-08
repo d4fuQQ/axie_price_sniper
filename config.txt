@@ -1,0 +1,1 @@
+-class plant -health 59 61 -part ['horn-leaf-bug', 'mouth-serious', 'back-watering-can', 'tail-hot-butt'] -price 404.0
