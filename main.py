@@ -22,7 +22,7 @@ def parse_add(query):
                     queryp.append(["class", query[i+1]])
                     continue
 
-            # If stat query (-health, -speed, -skill, -morale)
+            # If stat query (-hp, -speed, -skill, -morale)
             if (query[i][1:] in api.stats):
                 if (int(query[i+1]) and int(query[i+2])):
                     if int(query[i+1]) <= int(query[i+2]):
