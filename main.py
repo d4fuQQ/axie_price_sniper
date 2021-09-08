@@ -13,7 +13,6 @@ def parse_add(query):
     has_price = 0
 
     query.pop(0)
-    #['class:', 'beast', 'speed:', '57-61', 'part:', 'piercing-sound']
 
     for i in range(len(query)):
         if (query[i][0] == "-"):
