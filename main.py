@@ -103,11 +103,12 @@ def start(queries):
     skipped_axies = []
     while (True):
         for i in queries:
-            response = api.get_query("axie_brief_list", i)
+            response = api.get_axie_brief_list(i)
             axies_list = api.retrieve_axies_list(response)
             
             if not axies_list:
-                break
+                print("No axie founds for the query: {0}".format(i))
+                continue
 
             cheapest = api.get_cheapest(axies_list, skipped_axies)
             price_target = api.get_price_min(i)
@@ -130,7 +131,7 @@ def main():
     answer = ""
 
     while (True):
-        print("1. add [-class class] [-[stat] 27 61] [-part part-name] [-price value]")
+        print("1. add [-class class] [-[stat] 27 61] [-part part-name part-name part-name part-name] [-price value]")
         print("2. show")
         print("3. remove")
         print("4. save")
