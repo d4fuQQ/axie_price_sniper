@@ -48,7 +48,7 @@ def parse_add(query):
                         has_price = 1
                         continue
 
-    if (queryp == [] or has_price == 0):
+    if (not queryp or has_price == 0):
         print("Empty query. Did you type it right?")
         return -1
     else:
