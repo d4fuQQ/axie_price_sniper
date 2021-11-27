@@ -3,7 +3,7 @@ The code is a mess, bear with me. I did this in a single afternoon.
 
 Be aware that:
 1. This is not made for public use, but if you want to, go ahead.
-2. I didn't hygienize enough the queries, so bear in mind you could fuck up if you don't follow it properly.
+2. I didn't hygienize enough the queries, so bear in mind you could screw up if you don't follow it properly.
 3. There are probably better ways to make this and to organize the code.
 4. I am not sure how *legal* this is on axie ToS. You could get banned for market sniping using tools like this one. Don't blame me if you get banned.
 
